@@ -40,6 +40,10 @@ textarea{
   max-height: 100%; /* Prevent textarea from exceeding the height of the parent */
 }
 
+
+.btn-choose{
+    background-color: aliceblue
+}
 .SS{
     width: 90mm;
     height: 120mm;
@@ -77,10 +81,24 @@ textarea:focus {
 .background-options .img-thumbnail:hover {
     transform: scale(1.1);
 }
+.inputs{
+    margin:230px;
+}
+
 
 .bt{
     display: flex;
+    margin: 100px;  
 }
 .btn-success{
     margin: 8px;
+    color:black;
+    background-color: aliceblue;
+    border:1px solid transparent;
 }
+
+label{
+    display: flex;
+    justify-content: right;
+}
+

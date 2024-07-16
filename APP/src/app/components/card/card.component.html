@@ -29,15 +29,15 @@
       </button>
     </div>
   </div>
-  <div class="col-md-4" style="margin-right: 30px;">
-    <div class="form-group text-options">
-      <label for="textColor" class="form-label">בחר צבע טקסט:</label>
+  <div class="col-md-4 " style="margin-right: 30px;">
+    <div class="form-group text-options inputs">
+      <label for="textColor" class="form-label">בחר צבע טקסט</label>
       <input type="color" id="textColor" [(ngModel)]="selectedTextColor" class="form-control">
 
-      <label for="textSize" class="form-label mt-3">בחר גודל טקסט:</label>
+      <label for="textSize" class="form-label mt-3">בחר גודל טקסט</label>
       <input type="number" min="0.1" id="textSize" [(ngModel)]="selectedTextSize" step="0.1" class="form-control">
 
-      <label for="textAlign" class="form-label mt-3">בחר יישור טקסט:</label>
+      <label for="textAlign" class="form-label mt-3">בחר יישור טקסט</label>
       <select id="textAlign" [(ngModel)]="selectedTextAlign" class="form-control">
         <option value="left">שמאל</option>
         <option value="center">מרכז</option>
