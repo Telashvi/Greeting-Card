@@ -1,21 +1,17 @@
 <div>
-    <h2>Sign Up</h2>
     <form (ngSubmit)="onSubmit()">
+        <h2>Sign Up</h2>
         <div>
-            <label for="UserName">Full Name</label>
-            <input type="text" id="UserName" name="UserName" [(ngModel)]="newUser.UserName" required>
+            <input class="test" placeholder="Full Name" type="text" id="UserName" name="UserName" [(ngModel)]="newUser.UserName" required>
         </div>
         <div>
-            <label for="UserID">ID Number</label>
-            <input type="text" id="UserID" name="UserID" [(ngModel)]="newUser.UserID" required>
+            <input type="text" placeholder="ID Number" id="UserID" name="UserID" [(ngModel)]="newUser.UserID" required>
         </div>
         <div>
-            <label for="Email">Email</label>
-            <input type="email" id="Email" name="Email" [(ngModel)]="newUser.Email" required>
+            <input type="email" placeholder="Email" id="Email" name="Email" [(ngModel)]="newUser.Email" required>
         </div>
         <div>
-            <label for="Password">Password</label>
-            <input type="password" id="Password" name="Password" [(ngModel)]="newUser.Password" required>
+            <input type="password" placeholder="Password" id="Password" name="Password" [(ngModel)]="newUser.Password" required>
         </div>
         <button type="submit">הרשם</button>
         <button type="button"  (click)="setAdmin()">המשך כמנהל</button>

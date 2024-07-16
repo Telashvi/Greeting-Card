@@ -1,0 +1,21 @@
+input {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+form {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: aliceblue;
+}
