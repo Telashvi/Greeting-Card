@@ -1,0 +1,11 @@
+
+   <div class="container">
+    <div class="card" [ngStyle]="{ 'background-image': 'url(' + card.Background + ')' }">
+      <div class="card-body">
+        <div *ngIf="card.Style" style="position: absolute; padding: 30px;" [ngStyle]="applyStyles(card.Style)">
+          {{ card.Text }}
+        </div>
+      </div>
+    </div>
+  </div>
+
