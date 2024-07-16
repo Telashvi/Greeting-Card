@@ -2,7 +2,9 @@
     padding: 30px;
     padding-left: 150px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    margin-top: 7%;
+    
 }
 .card {
   position: relative;
@@ -56,10 +58,16 @@ textarea:focus {
 
 .text-options {
     margin-top: 20px;
+    
+}
+
+.right-side{
+    margin-top:-150px;
 }
 .background-options {
     display: flex;
     justify-content:flex-start;
+    margin-right: -250px;
 }
 .background-options .btn {
     
@@ -82,13 +90,15 @@ textarea:focus {
     transform: scale(1.1);
 }
 .inputs{
-    margin:230px;
+    margin:150px;
+    margin-bottom: 0;
 }
 
 
 .bt{
     display: flex;
-    margin: 100px;  
+    margin-top: 7px;
+    justify-content: center;
 }
 .btn-success{
     margin: 8px;
